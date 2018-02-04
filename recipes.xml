@@ -1,0 +1,609 @@
+<recipes>
+	<recipe name="worm hole">
+		<name>Worm Hole</name>
+		<type>food-bowl</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="bowl" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="worm" count="4"/>
+					<ingredient name="onion" count="2"/>
+					<ingredient name="spice" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="equa" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="vegetable ball">
+		<name>Vegetable ball</name>
+		<type>food-bowl</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="bowl" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="onion" count="2"/>
+					<ingredient name="potato" count="2"/>
+					<ingredient name="spice" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="equa" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="tangled toads legs">
+		<name>Tangled toad legs</name>
+		<type>food-bowl</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="bowl" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="toad" count="4"/>
+					<ingredient name="spice" count="1"/>
+					<ingredient name="cheese" count="2"/>
+					<ingredient name="dwellberry" count="1"/>
+					<ingredient name="equa" count="2"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="chocolate bomb">
+		<name>Chocolate bomb</name>
+		<type>food-bowl</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="bowl" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="chocolate-b" count="4"/>
+					<ingredient name="equa" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="chocolate-d" count="1"/>
+					<ingredient name="cream" count="2"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="fruit batta">
+		<name>Fruit batta</name>
+		<type>food-batta</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="batta" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="equa" count="4"/>
+					<ingredient name="lime-c" count="1"/>
+					<ingredient name="orange-c" count="1"/>
+					<ingredient name="pineapple-c" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="spice" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="toad batta">
+		<name>Toad batta</name>
+		<type>food-batta</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="batta" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="equa" count="1"/>
+					<ingredient name="spice" count="1"/>
+					<ingredient name="cheese" count="1"/>
+					<ingredient name="toad" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="worm batta">
+		<name>Worm batta</name>
+		<type>food-batta</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="batta" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="worm" count="1"/>
+					<ingredient name="cheese" count="1"/>
+					<ingredient name="spice" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="equa" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="vegetable batta">
+		<name>Vegetable batta</name>
+		<type>food-batta</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="batta" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="tomato" count="2"/>
+					<ingredient name="dwellberry" count="1"/>
+					<ingredient name="onion" count="1"/>
+					<ingredient name="cheese" count="1"/>
+					<ingredient name="cabbage" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="equa" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="cheese and tomato batta">
+		<name>Cheese and tomato batta</name>
+		<type>food-batta</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="batta" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="tomato" count="1"/>
+					<ingredient name="cheese" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="equa" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="toad crunchies">
+		<name>Toad crunchies</name>
+		<type>food-crunchy</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="crunchy" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="toad" count="2"/>
+					<ingredient name="spice" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="equa" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="spicy crunchies">
+		<name>Spicy crunchies</name>
+		<type>food-crunchy</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="crunchy" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="equa" count="2"/>
+					<ingredient name="spice" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="spice" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="worm crunchies">
+		<name>Worm crunchies</name>
+		<type>food-crunchy</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="crunchy" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="worm" count="2"/>
+					<ingredient name="spice" count="1"/>
+					<ingredient name="equa" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="spice" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="choc chip crunchies">
+		<name>Chocchip crunchies</name>
+		<type>food-crunchy</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="crunchy" count="1"/>
+					<ingredient name="dough" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="chocolate-b" count="2"/>
+					<ingredient name="spice" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Bake</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="chocolate-d" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="fruit blast">
+		<name>Fruit blast</name>
+		<type>drink</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="glass" count="1"/>
+					<ingredient name="shaker" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="pineapple" count="1"/>
+					<ingredient name="lemon" count="1"/>
+					<ingredient name="orange" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Pouring</name>
+				<ingredients>
+					<ingredient name="lemon-s" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="pineapple punch">
+		<name>Pineapple punch</name>
+		<type>drink</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="glass" count="1"/>
+					<ingredient name="shaker" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="pineapple" count="2"/>
+					<ingredient name="lemon" count="1"/>
+					<ingredient name="orange" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Pouring</name>
+				<ingredients>
+					<ingredient name="lime-c" count="1"/>
+					<ingredient name="pineapple-c" count="1"/>
+					<ingredient name="orange-s" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="wizard blizzard">
+		<name>Wizard blizzard</name>
+		<type>drink</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="glass" count="1"/>
+					<ingredient name="shaker" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="vodka" count="2"/>
+					<ingredient name="gin" count="1"/>
+					<ingredient name="lime" count="1"/>
+					<ingredient name="lemon" count="1"/>
+					<ingredient name="orange" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Pouring</name>
+				<ingredients>
+					<ingredient name="pineapple-c" count="1"/>
+					<ingredient name="lime-s" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="short green guy">
+		<name>Short green guy</name>
+		<type>drink</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="glass" count="1"/>
+					<ingredient name="shaker" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="vodka" count="1"/>
+					<ingredient name="lime" count="3"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Pouring</name>
+				<ingredients>
+					<ingredient name="equa" count="1"/>
+					<ingredient name="lime-s" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="drunk dragon">
+		<name>Drunk Dragon</name>
+		<type>drink</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="glass" count="1"/>
+					<ingredient name="shaker" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="vodka" count="1"/>
+					<ingredient name="gin" count="1"/>
+					<ingredient name="dwellberry" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Pouring</name>
+				<ingredients>
+					<ingredient name="pineapple-c" count="1"/>
+					<ingredient name="cream" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Heat</name>
+				<ingredients></ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="choc saturday">
+		<name>Choc saturday</name>
+		<type>drink</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="glass" count="1"/>
+					<ingredient name="shaker" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="whisky" count="1"/>
+					<ingredient name="chocolate-b" count="1"/>
+					<ingredient name="equa" count="1"/>
+					<ingredient name="milk" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Pouring</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Heat</name>
+				<ingredients></ingredients>
+			</stage>
+			<stage>
+				<name>Finish</name>
+				<ingredients>
+					<ingredient name="chocolate-d" count="1"/>
+					<ingredient name="cream" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+	<recipe name="blurberry special">
+		<name>Blurberry special</name>
+		<type>drink</type>
+		<stages>
+			<stage>
+				<name>Base</name>
+				<ingredients>
+					<ingredient name="glass" count="1"/>
+					<ingredient name="shaker" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Preparation</name>
+				<ingredients>
+					<ingredient name="vodka" count="1"/>
+					<ingredient name="brandy" count="1"/>
+					<ingredient name="gin" count="1"/>
+					<ingredient name="lemon" count="2"/>
+					<ingredient name="orange" count="1"/>
+				</ingredients>
+			</stage>
+			<stage>
+				<name>Pouring</name>
+				<ingredients>
+					<ingredient name="lemon-c" count="1"/>
+					<ingredient name="orange-c" count="1"/>
+					<ingredient name="equa" count="1"/>
+					<ingredient name="lime-s" count="1"/>
+				</ingredients>
+			</stage>
+		</stages>
+	</recipe>
+</recipes>

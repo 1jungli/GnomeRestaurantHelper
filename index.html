@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://runeapps.org/runeappslib.js"></script>
+		<script src="http://runeapps.org/alt1lib.js"></script>
+		<script src="http://runeapps.org/imagedetect.js"></script>
+		<script src="http://runeapps.org/imagelibs/chatbox.js"></script>
+		<script src="http://runeapps.org/imagelibs/dialogtext.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://runeapps.org/nis/nis.css">
+		<link rel="stylesheet" type="text/css" href="http://runeapps.org/nis/alt1-currentskin/skinstyle.css">
+		<script src="app.js"></script>
+		<style>
+			body {
+				overflow-y:scroll;
+				overflow-x:hidden;
+			}
+			.nistitle {
+				font-size:1.25em;
+				clear:both;
+			}
+			.nistable {
+				width:100%;
+			}
+			.nistable tr.odd {
+				background-color:rgba(255,255,255,0.2);
+			}
+			.nistable tr.even {
+				background-color:rgba(255,255,255,0.1);
+			}
+			.contenttab a {
+				color:inherit;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body class="nis normalscroll scrollreset" onload="start();">
+		<span class="nistitle">Gnome Restaurant Helper</span><br />
+		<span class="contenttab lefttab activetab" name="Recipe">
+			<a href="#recipes" onclick="changeTab(event);">Recipes</a>
+		</span>
+		<span class="contenttab lefttab" name="People">
+			<a href="#people" onclick="changeTab(event);">People</a>
+		</span>
+		<br style="clear:both;"/>
+		<div class="tabcontent" name="Recipe">
+			<select class="nisdropdown" name="selRecipe" id="selRecipe">
+			</select>
+			<table class="nistable">
+				<thead>
+					<tr>
+						<th>Stage</th>
+						<th>Ingredient</th>
+						<th>Store</th>
+					</tr>
+				</thead>
+				<tbody id="tblRecipe">
+				</tbody>
+			</table>
+		</div>
+		<div class="tabcontent" style="display:none;" name="People">
+			<label for="selPerson" class="nistext">
+				Person:
+			</label>
+			<select class="nisinput" name="selPerson" id="selPerson">
+			</select>
+			<div class="nistext" id="txtPerson">
+			</div>
+		</div>
+	</body>
+</html>
