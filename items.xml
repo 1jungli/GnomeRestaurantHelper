@@ -1,33 +1,33 @@
 <items>
-	<item name="brandy" id="2021">
+	<item descriptor="brandy" id="2021">
 		<name>Brandy</name>
 		<stores>
 			<store name="Heckel Funch" price="5"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="gin" id="2019">
+	<item descriptor="gin" id="2019">
 		<name>Gin</name>
 		<stores>
 			<store name="Heckel Funch" price="5"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="vodka" id="2015">
+	<item descriptor="vodka" id="2015">
 		<name>Vodka</name>
 		<stores>
 			<store name="Heckel Funch" price="5"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="whisky" id="2017">
+	<item descriptor="whisky" id="2017">
 		<name>Whisky</name>
 		<stores>
 			<store name="Heckel Funch" price="5"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="pineapple" id="2114">
+	<item descriptor="pineapple" id="2114">
 		<name>Pineapple</name>
 		<stores>
 			<store name="Heckel Funch" price="2"/>
@@ -35,7 +35,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="pineapple-c" id="2116">
+	<item descriptor="pineapple-c" id="2116">
 		<name>Pineapple chunks</name>
 		<stores>
 			<store name="Heckel Funch" price="2"/>
@@ -43,7 +43,7 @@
 		</stores>
 		<notes>Chop a pineapple!</notes>
 	</item>
-	<item name="equa" id="2128">
+	<item descriptor="equa" id="2128">
 		<name>Equa leaves</name>
 		<stores>
 			<store name="Heckel Funch" price="2"/>
@@ -51,7 +51,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="orange" id="2108">
+	<item descriptor="orange" id="2108">
 		<name>Orange</name>
 		<stores>
 			<store name="Heckel Funch" price="70"/>
@@ -59,7 +59,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="orange-c" id="2110">
+	<item descriptor="orange-c" id="2110">
 		<name>Orange chunks</name>
 		<stores>
 			<store name="Heckel Funch" price="70"/>
@@ -67,7 +67,7 @@
 		</stores>
 		<notes>Chop an orange!</notes>
 	</item>
-	<item name="orange-s" id="2112">
+	<item descriptor="orange-s" id="2112">
 		<name>Orange slices</name>
 		<stores>
 			<store name="Heckel Funch" price="70"/>
@@ -75,7 +75,7 @@
 		</stores>
 		<notes>Slice an orange!</notes>
 	</item>
-	<item name="lemon" id="2102">
+	<item descriptor="lemon" id="2102">
 		<name>Lemon</name>
 		<stores>
 			<store name="Heckel Funch" price="2"/>
@@ -83,7 +83,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="lemon-c" id="2104">
+	<item descriptor="lemon-c" id="2104">
 		<name>Lemon Chunks</name>
 		<stores>
 			<store name="Heckel Funch" price="2"/>
@@ -91,7 +91,7 @@
 		</stores>
 		<notes>Chop a lemon!</notes>
 	</item>
-	<item name="lemon-s" id="2106">
+	<item descriptor="lemon-s" id="2106">
 		<name>Lemon slices</name>
 		<stores>
 			<store name="Heckel Funch" price="2"/>
@@ -99,7 +99,7 @@
 		</stores>
 		<notes>Slice a lemon!</notes>
 	</item>
-	<item name="lime" id="2120">
+	<item descriptor="lime" id="2120">
 		<name>Lime</name>
 		<stores>
 			<store name="Heckel Funch" price="2"/>
@@ -107,7 +107,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="lime-s" id="2124">
+	<item descriptor="lime-s" id="2124">
 		<name>Lime slices</name>
 		<stores>
 			<store name="Heckel Funch" price="2"/>
@@ -115,7 +115,7 @@
 		</stores>
 		<notes>Slice a lime!</notes>
 	</item>
-	<item name="lime-c" id="2122">
+	<item descriptor="lime-c" id="2122">
 		<name>Lime chunks</name>
 		<stores>
 			<store name="Heckel Funch" price="2"/>
@@ -123,7 +123,7 @@
 		</stores>
 		<notes>Chop a lime!</notes>
 	</item>
-	<item name="dwellberry" id="2126">
+	<item descriptor="dwellberry" id="2126">
 		<name>Dwellberries</name>
 		<stores>
 			<store name="Heckel Funch" price="4"/>
@@ -131,7 +131,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="shaker" id="2025">
+	<item descriptor="shaker" id="2025">
 		<name>Cocktail Shaker</name>
 		<stores>
 			<store name="Found on table near Hudo" price="0"/>
@@ -140,7 +140,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="chocolate-b" id="1973">
+	<item descriptor="chocolate-b" id="1973">
 		<name>Chocolate bar</name>
 		<stores>
 			<store name="Heckel Funch" price="20"/>
@@ -148,7 +148,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="chocolate-d" id="1975">
+	<item descriptor="chocolate-d" id="1975">
 		<name>Chocolate dust</name>
 		<stores>
 			<store name="Heckel Funch" price="20"/>
@@ -156,7 +156,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="cream" id="2130">
+	<item descriptor="cream" id="2130">
 		<name>Pot of cream</name>
 		<stores>
 			<store name="Heckel Funch" price="19"/>
@@ -164,7 +164,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="milk" id="1927">
+	<item descriptor="milk" id="1927">
 		<name>Bucket of milk</name>
 		<stores>
 			<store name="Heckel Funch" price="12"/>
@@ -172,7 +172,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="glass" id="2026">
+	<item descriptor="glass" id="2026">
 		<name>Cocktail glass</name>
 		<stores>
 			<store name="On ground by Heckel Funch" price="0"/>
@@ -180,56 +180,56 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="dough" id="2171">
+	<item descriptor="dough" id="2171">
 		<name>Gianne dough</name>
 		<stores>
 			<store name="Hudo" price="2"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="spice" id="2169">
+	<item descriptor="spice" id="2169">
 		<name>Gnome Spice</name>
 		<stores>
 			<store name="Hudo" price="2"/>
 		</stores>
 		<notes>Should only need one, never is used up in recipes.</notes>
 	</item>
-	<item name="onion" id="1957">
+	<item descriptor="onion" id="1957">
 		<name>Onion</name>
 		<stores>
 			<store name="Hudo" price="12"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="potato" id="1942">
+	<item descriptor="potato" id="1942">
 		<name>Raw potato</name>
 		<stores>
 			<store name="Hudo" price="18"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="cabbage" id="1967">
+	<item descriptor="cabbage" id="1967">
 		<name>Cabbage</name>
 		<stores>
 			<store name="Hudo" price="1"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="tomato" id="1982">
+	<item descriptor="tomato" id="1982">
 		<name>Tomato</name>
 		<stores>
 			<store name="Hudo" price="14"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="cheese" id="1985">
+	<item descriptor="cheese" id="1985">
 		<name>Cheese</name>
 		<stores>
 			<store name="Hudo" price="8"/>
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="batta" id="2164">
+	<item descriptor="batta" id="2164">
 		<name>Batta tin</name>
 		<stores>
 			<store name="Found in cabinet by Hudo" price="0"/>
@@ -237,7 +237,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="bowl" id="2166">
+	<item descriptor="bowl" id="2166">
 		<name>Gnomebowl mould</name>
 		<stores>
 			<store name="Found in cabinet by Hudo" price="0"/>
@@ -245,7 +245,7 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="crunchy" id="2165">
+	<item descriptor="crunchy" id="2165">
 		<name>Crunchy tray</name>
 		<stores>
 			<store name="Found in cabinet by Hudo" price="0"/>
@@ -253,18 +253,31 @@
 		</stores>
 		<notes></notes>
 	</item>
-	<item name="worm" id="2162">
+	<item descriptor="worm" id="2162">
 		<name>King worm</name>
 		<stores>
 			<store name="Found near the swamp." price="N/A"/>
 		</stores>
 		<notes>It's best to gather a good amount of these in preparation before requesting any recipes.</notes>
 	</item>
-	<item name="toad" id="2152">
+	<item descriptor="toad" id="2152">
 		<name>Toad's legs</name>
 		<stores>
 			<store name="Found near the swamp. Remove the legs for Gnome Restaurant." price="N/A"/>
 		</stores>
 		<notes>It's best to gather a good amount of these in preparation before requesting any recipes.</notes>
+	</item>
+	<!-- Rewards -->
+	<item descriptor="coins" id="617">
+		<name>Coins</name>
+		<notes>2-500 coins are expected.</notes>
+	</item>
+	<item descriptor="mint cake" id="9475">
+		<name>Mint Cake</name>
+		<notes>Common Hard delivery reward</notes>
+	</item>
+	<item descriptor="gnome goggles" id="9472">
+		<name>Mint Cake</name>
+		<notes></notes>
 	</item>
 </items>

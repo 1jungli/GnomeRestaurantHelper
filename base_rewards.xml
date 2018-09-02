@@ -1,0 +1,44 @@
+<rewards>
+	<!-- Data based off runescape.wikia.com -->
+	<!-- Rarity 
+		0 - Common
+		1 - Uncommon
+		2 - Rare
+		3 - Very rare
+	-->
+	<!-- Unique items -->
+	<reward descriptor="mint cake" min="8" max="10" rarity="0"/>
+	<reward descriptor="gnomeball" min="1" max="1" rarity="2"/>
+	<reward descriptor="grand seed pod" min="8" max="15" rarity="1"/>
+	<!-- Herbs -->
+	<reward descriptor="goutweed" min="1" max="1" rarity="2"/>
+	<reward descriptor="snapdragon" min="1" max="1" rarity="1"/>
+	<reward descriptor="toadflax" min="3" max="3" rarity="1"/>
+	<!-- Gems -->
+	<reward descriptor="emerald" min="3" max="5" rarity="0"/>
+	<reward descriptor="ruby" min="2" max="4" rarity="0"/>
+	<reward descriptor="sapphire" min="6" max="16" rarity="0"/>
+	<reward descriptor="diamond" min="1" max="1" rarity="1"/>
+	<reward descriptor="jade" min="2" max="3" rarity="2"/>
+	<reward descriptor="opal" min="3" max="3" rarity="2"/>
+	<reward descriptor="topaz" min="1" max="1" rarity="2"/>
+	<!-- Crossbow bolts -->
+	<reward descriptor="abolts" min="12" max="26" rarity="0"/>
+	<reward descriptor="mbolts" min="17" max="35" rarity="0"/>
+	<reward descriptor="rbolts" min="7" max="15" rarity="2"/>
+	<!-- Other tips -->
+	<reward descriptor="nest" min="1" max="1" rarity="1"/>
+	<reward descriptor="lkey" min="1" max="1" rarity="2"/>
+	<reward descriptor="tkey" min="1" max="1" rarity="2"/>
+	<reward descriptor="calquat" min="1" max="1" rarity="2"/>
+	<reward descriptor="pineapple" min="1" max="1" rarity="2"/>
+	<reward descriptor="yew" min="1" max="1" rarity="2"/>
+	<reward descriptor="magic" min="1" max="3" rarity="3"/>
+	<!-- Sous chef's outfit -->
+	<reward descriptor="chefjacket" min="1" max="1" rarity="0"/>
+	<reward descriptor="chefmitts" min="1" max="1" rarity="0"/>
+	<reward descriptor="chefshoes" min="1" max="1" rarity="0"/>
+	<reward descriptor="cheftoque" min="1" max="1" rarity="0"/>
+	<reward descriptor="cheftoqueaddon" min="1" max="1" rarity="0"/>
+	<reward descriptor="cheftrousers" min="1" max="1" rarity="0"/>
+</rewards>

@@ -1,0 +1,15 @@
+{
+	"appName": "Gnome Restaurant Helper",
+	"description": "Tells you what ingredients you need for what recipes, as well as fastest routes to recipient of recipe.",
+	"appUrl": "/alt1/GnomeRestaurantHelper",
+	"configUrl": "/alt1/GnomeRestaurantHelper/appconfig.json",
+	"defaultWidth": 356,
+	"defaultHeight": 400,
+	"minWidth": 356,
+	"minHeight": 400,
+	"maxWidth": 1000,
+	"maxHeight": 821,
+	"requestHandlers": [],
+	"activators": [],
+	"permissions": "pixel,gamestate"
+}

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="http://runeapps.org/runeappslib.js"></script>
-		<script src="http://runeapps.org/alt1lib.js"></script>
-		<script src="http://runeapps.org/imagedetect.js"></script>
-		<script src="http://runeapps.org/imagelibs/chatbox.js"></script>
-		<script src="http://runeapps.org/imagelibs/dialogtext.js"></script>
-		<link rel="stylesheet" type="text/css" href="http://runeapps.org/nis/nis.css">
-		<link rel="stylesheet" type="text/css" href="http://runeapps.org/nis/alt1-currentskin/skinstyle.css">
+		<script src="//runeapps.org/runeappslib.js"></script>
+		<script src="//runeapps.org/alt1lib.js"></script>
+		<script src="//runeapps.org/imagedetect.js"></script>
+		<script src="//runeapps.org/imagelibs/chatbox.js"></script>
+		<script src="//runeapps.org/imagelibs/dialogtext.js"></script>
+		<link rel="stylesheet" type="text/css" href="//runeapps.org/nis/nis.css">
+		<link rel="stylesheet" type="text/css" href="//runeapps.org/nis/alt1-currentskin/skinstyle.css">
 		<script src="app.js"></script>
 		<style>
 			body {
@@ -31,39 +31,194 @@
 				color:inherit;
 				text-decoration: none;
 			}
+			.contenttab {
+				margin-bottom:9px;
+			}
+			.nischeckbox {
+				height:1em;
+				width:1em;
+				-webkit-appearance:none;
+				color:#B1AFAE; 
+				outline:none; 
+				position:relative; 
+				margin:0px 4px; 
+				box-sizing:border-box; 
+				background:-webkit-radial-gradient(center,ellipse cover, #191714 0%,#292222 90%,#100C0C 100%); 
+				border:1px solid #514949; 
+				font-family:sans-serif; 
+				font-size:13px;
+			}
+			.nischeckbox:checked::after {
+				content:"";
+				position:relative;
+				display:block;
+				width:100%;
+				height:100%;
+				background-image:url(tick.svg);
+				background-size:cover;
+			}
+			.scroll {
+				width:100%;
+				height:100%;
+				overflow:scroll;
+			}
+			h2 {
+				margin-bottom:0;
+			}
+			p {
+				margin-top:0;
+			}
 		</style>
 	</head>
-	<body class="nis normalscroll scrollreset" onload="start();">
+	<body class="nis" onload="start();">
 		<span class="nistitle">Gnome Restaurant Helper</span><br />
-		<span class="contenttab lefttab activetab" name="Recipe">
+		<span class="contenttab lefttab activetab" name="recipe">
 			<a href="#recipes" onclick="changeTab(event);">Recipes</a>
 		</span>
-		<span class="contenttab lefttab" name="People">
-			<a href="#people" onclick="changeTab(event);">People</a>
+		<span class="contenttab lefttab" name="people">
+			<a href="#people" onclick="changeTab(event);">Gnomes</a>
 		</span>
-		<br style="clear:both;"/>
-		<div class="tabcontent" name="Recipe">
-			<select class="nisdropdown" name="selRecipe" id="selRecipe">
-			</select>
-			<table class="nistable">
-				<thead>
-					<tr>
-						<th>Stage</th>
-						<th>Ingredient</th>
-						<th>Store</th>
-					</tr>
-				</thead>
-				<tbody id="tblRecipe">
-				</tbody>
-			</table>
-		</div>
-		<div class="tabcontent" style="display:none;" name="People">
-			<label for="selPerson" class="nistext">
-				Person:
-			</label>
-			<select class="nisinput" name="selPerson" id="selPerson">
-			</select>
-			<div class="nistext" id="txtPerson">
+		<span class="contenttab lefttab" name="options">
+			<a href="#options" onclick="changeTab(event);">Options</a>
+		</span>
+		<br style="clear:both;margin-bottom:18px;"/>
+		<div class="scroll">
+			<div class="tabcontent" name="recipe">
+				<select class="nisdropdown" name="lastRecipe" id="selRecipe">
+				</select>
+				<table class="nistable">
+					<thead>
+						<tr>
+							<th>Stage</th>
+							<th>Ingredient</th>
+							<th>Store</th>
+						</tr>
+					</thead>
+					<tbody id="tblRecipe">
+					</tbody>
+				</table>
+			</div>
+			<div class="tabcontent" style="display:none;" name="people">
+				<label for="selPerson" class="nistext">
+					Gnome:
+				</label>
+				<select class="nisdropdown" name="lastGnome" id="selPerson">
+				</select>
+				<div class="nistext" id="txtPerson">
+				</div>
+			</div>
+			<div class="tabcontent" style="display:none;" name="options">
+				<form id="formOptions" action="#">
+					<!-- Skills -->					
+					<h2>Skills</h2>
+					<p>All skills can be boosted to reach the required level</p>
+					<label for="txtPlayerName" class="nistext" title="Used to determine skills, if player skills aren't accessible, assumes player has the skills required.">
+						Player Name:
+					</label>
+					<input class="nisinput" name="player" id="txtPlayerName" type="text"/>
+					<br />
+					<!-- Quests -->
+					<h2>Quests</h2>
+					<p>All of these quests are recommended, as they will help to reduce the time required to reach the gnomes.</p>
+					<input class="nischeckbox" name="questEJ" id="cbkQuestEJ" type="checkbox"/>
+					<label for="cbkQuestEJ" class="nistext" title="Grants access to the balloon system network">
+						Enlightened Journey
+					</label>
+					<br />
+					<input class="nischeckbox" name="questTGV" id="cbkQuestTGV" type="checkbox"/>
+					<label for="cbkQuestTGV" class="nistext" title="Grants access to the use of spirit trees">
+						Tree Gnome Village
+					</label>
+					<br />
+					<input class="nischeckbox" name="questTGT" id="cbkQuestTGT" type="checkbox" title="The Grand Tree"/>
+					<label for="cbkQuestTGT" class="nistext" title="Required to access G.L.O Caranock. Grants access to a spirit tree and gnome gliders.">
+						The Grand Tree
+					</label>
+					<br />
+					<input  class="nischeckbox" name="questOSF" id="cbkQuestOSF" type="checkbox"/>
+					<label for="cbkQuestOSF" class="nistext" title="Grants access to Feldip Hills gnome glider">
+						One Small Favour
+					</label>
+					<br />
+					<input class="nischeckbox" name="questMM" id="cbkQuestMM" type="checkbox"/>
+					<label for="cbkQuestMM" class="nistext" title="Required to access Garkor">
+						Monkey Madness*
+					</label>
+					<br />
+					<input class="nischeckbox" name="questFC" id="cbkQuestFC" type="checkbox"/>
+					<label for="cbkQuestFC" class="nistext" title="Required to access Captain Ninto">
+						Fishing Contest*
+					</label>
+					<br />
+					<input class="nischeckbox" name="questTR" id="cbkQuestTR" type="checkbox"/>
+					<label for="cbkQuestTR" class="nistext" title="Required to access Brambickle">
+						Troll Romance*
+					</label>
+					<br />
+					<input class="nischeckbox" name="questTGD" id="cbkQuestTGD" type="checkbox"/>
+					<label for="cbkQuestTGD" class="nistext" title="Required to access Professor Manglethorp">
+						The Giant Dwarf*
+					</label>
+					<br />
+					<input class="nischeckbox" name="questFT2" id="cbkQuestFT2" type="checkbox"/>
+					<label for="cbkQuestFT2" class="nistext" title="Grants access to fairy ring network">
+						Started Fairytale II - Cure A Queen
+					</label>
+					<br />
+					<input class="nischeckbox" name="questFT3" id="cbkQuestFT3" type="checkbox"/>
+					<label for="cbkQuestFT3" class="nistext" title="Grants unrestricted access to fairy ring network">
+						Fairytale III - Battle at Orks Rift
+					</label>
+					<br />
+					<input class="nischeckbox" name="questPC" id="cbkQuestPC" type="checkbox"/>
+					<label for="cbkQuestPC" class="nistext" title="Grants access to Ardougne Teleport">
+						Plague City
+					</label>
+					<br />
+					<input class="nischeckbox" name="questWT" id="cbkQuestWT" type="checkbox"/>
+					<label for="cbkQuestWT" class="nistext" title="Grants access to Watchtower Teleport">
+						Watchtower
+					</label>
+					<br />
+					<input class="nischeckbox" name="questTFT" id="cbkQuestTFT" type="checkbox"/>
+					<label for="cbkQuestTFT" class="nistext" title="Grants access to Watchtower Teleport">
+						The Fremennik Trials
+					</label>
+					<br />
+					<input class="nischeckbox" name="questLS" id="cbkQuestLS" type="checkbox"/>
+					<label for="cbkQuestLS" class="nistext" title="Grants access to being able to make chipped teleport stones">
+						Love Story
+					</label>
+					<br />
+					<input class="nischeckbox" name="questTMF" id="cbkQuestTMF" type="checkbox"/>
+					<label for="cbkQuestTMF" class="nistext" title="Grants access to being able to make chipped teleport stones">
+						The Mighty Fall
+					</label>
+					<br />
+					<input class="nischeckbox" name="questER" id="cbkQuestER" type="checkbox"/>
+					<label for="cbkQuestER" class="nistext" title="Grants access to Trollheim Teleport">
+						Eadgar's Ruse
+					</label>
+					<br />
+					<input class="nischeckbox" name="questTGW" id="cbkQuestTGW" type="checkbox"/>
+					<label for="cbkQuestTGW" class="nistext" title="Grants access to make The Heart teleport tablets">
+						Tales of the God Wars
+					</label>
+					<!-- Tasks -->
+					<h2>Tasks</h2>
+					<p>Please only select the tasks that you have completed as well as claimed the reward for</p>
+					<input class="nischeckbox" name="tasksDesert" id="cbkTasksDesert" type="checkbox"/>
+					<label for="cbkTasksDesert" class="nistext" title="Grants unlimited teleports to Nardah">
+						All easy and medium Desert Tasks
+					</label>
+					<br />
+					<input class="nischeckbox" name="tasksArdy" id="cbkTasksArdy" type="checkbox"/>
+					<label for="cbkTasksArdy" class="nistext" title="Grants quick and easy returns to the Gnome Stronghold">
+						All easy Ardougne Tasks
+					</label>
+					<br />
+					<p>* - Required to access certain gnomes (hover over to see which gnome is affected)</p>
+				</form>
 			</div>
 		</div>
 	</body>

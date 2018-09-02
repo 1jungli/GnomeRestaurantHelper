@@ -1,0 +1,119 @@
+<gnomes>
+	<gnome descriptor="ambassador ferrnook">
+		<name>Ambassador Ferrnook</name>
+		<methods>
+			<method dir="to" requires="skillMagic>24">
+				<description>Varrock Teleport</description>
+			</method>
+			<method dir="to" requires="questTGV">
+				Grand Exchange Spirit Tree
+			</method>
+			<method dir="from" requires="questTGV,questTGT">
+				Grand Exchange Spirit Tree
+			</method>
+			<method dir="to">
+				<description>Varrock Lodestone</description>
+			</method>
+			<method dir="from">
+				<description>Grand seed pod</description>
+			</method>
+			<method dir="to" requires="questEJ">
+				<description>Varrock Balloon</description>
+			</method>
+			<method dir="from" requires="questEJ">
+				<description>Varrock Balloon</description>
+			</method>
+		</methods>
+		<rewards />
+		<location>
+			Located on the {{FLOOR[2]}} floor of Varrock Palace, in the region surrounding the stairs.
+		</location>
+	</gnome>
+	<gnome descriptor="ambassador gimblewap">
+		<name>Ambassador Gimblewap</name>
+		<methods>
+			<method dir="to" requires="questPC,skillMagic>50">
+				<description>Ardougne Teleport</description>
+			</method>
+			<method dir="to" requires="questTGV">
+				<description>Khazard Battlefield Spirit Tree</description>
+			</method>
+			<method dir="from" requires="questTGV,questTGT">
+				<description>Khazard Battlefield Spirit Tree</description>
+			</method>
+			<method dir="from">
+				<description>Grand seed pod</description>
+			</method>
+			<method dir="to" requires="taskArdy">
+				<description>Ardougne Cape Teleport</description>
+			</method>
+			<method dir="to">
+				<description>Ardougne Lodestone</description>
+			</method>
+			<method dir="to" requires="questTGT">
+				<description>Gnome Glider #7 by entrance to Gnome Tree Village</description>
+			</method>
+			<method dir="from" requires="questTGT">
+				<description>Gnome Glider #7 by entrance to Gnome Tree Village</description>
+			</method>
+		</methods>
+		<rewards />
+		<location>
+			Located on the {{FLOOR[2]}} floor of Ardougne castle, generally wandering the hallway, but can get stuck in the rooms
+		</location>
+	</gnome>
+	<gnome descriptor="ambassador spanfipple">
+		<name>Ambassador Spanfipple</name>
+		<methods>
+			<method dir="to" requires="skillMagic>36">
+				<description>Falador Teleport</description>
+			</method>
+			<method dir="to">
+				<description>Falador Lodestone</description>
+			</method>
+			<method dir="from">
+				<description>Grand seed pod</description>
+			</method>
+			<method dir="from" requires="questEJ">
+				<description>Crafting guild balloon</description>
+			</method>
+		</methods>
+		<rewards />
+		<location>
+			Located on the {{FLOOR[2]}} floor of Falador castle, generally roaming the east side of the castle.
+		</location>
+	</gnome>
+	<gnome descriptor="brambickle" requires="questTR">
+		<name>Brambickle</name>
+		<methods>
+			<method dir="to" requires="questTMF,skillStrength>59,skillMagic>60">
+				<description>God Wars Dungeon Teleport, then run south, then run past the Thrower Trolls until you reach the ice path.</description>
+			</method>
+			<method dir="to" requires="questER,skillMagic>60">
+				<description>Trollheim Teleport, run down the mountain, then go up until you reach the ice path.</description>
+			</method>
+			<method dir="to" requires="questFT2">
+				<description>Fairy ring AJR, then climb up into the plateau.</description>
+			</method>
+			<method dir="to" requires="skillConstruction>29">
+				<description>Teleport Home to Relekka (requires home set in Rellekka)</description>
+			</method>
+			<method dir="to" requires="questLS">
+				<description>Use a chipped home tablet to teleport to Rellekka, then travel east to climb up into the plateau</description>
+			</method>
+			<method dir="to" requires="questTFT">
+				<description>Use an enchanted lyre to teleport to Rellekka, then travel southeast to climb up into the plateau</description>
+			</method>
+			<method dir="to">
+				<description>Fremennik Province Lodestone, then travel southeast to climb up into the plateau.</description>
+			</method>
+			<method dir="from">
+				<description>Grand seed pod</description>
+			</method>
+		</methods>
+		<rewards />
+		<location>
+			Located near the exit of the Ice troll cave north of Trollheim, this gnome is generally one of the longest trips
+		</location>
+	</gnome>
+</gnomes>
